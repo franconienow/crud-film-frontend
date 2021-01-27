@@ -1,0 +1,24 @@
+// custom.scss
+
+// colors
+$primary:       #F05454;
+$secondary:     #30475E;
+$light:         #E8E8E8;
+$dark:          #222831;
+
+// font-family
+$font-family-open-sans:       'Open Sans', sans-serif !default;
+$font-family-base:            $font-family-open-sans !default;
+
+//font-weight
+$font-weight-normal:          400 !default;
+$font-weight-bold:            600 !default;
+
+$headings-font-weight:        $font-weight-bold !default;
+
+// navbar
+$navbar-light-color:                $dark !default;
+$navbar-light-hover-color:          rgba(33, 39, 48, 0.6) !default;
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
